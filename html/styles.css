@@ -1,0 +1,91 @@
+body {
+    font-family: sans-serif;
+}
+
+.header-center {
+    text-align: center;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    cursor: pointer;
+}
+
+a.button {
+    color: black;
+    display: block;
+}
+
+a.button {
+    text-decoration: none;
+}
+
+
+li {
+    padding: 5pt 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, tr, th, td,  {
+    border: 1px solid black;
+}
+
+tr.problematic-data {
+    background-color: #FF7241; /*orange-red*/
+}
+
+tr.data-ok {
+    background-color: #80FF54; /*light green*/
+}
+
+tr:hover {
+    background-color: #FCAFCE; /* light pink */
+    color: #AD0B3B; /*dark purple*/
+}
+
+th, td {
+    padding: 10px 0;
+}
+
+th {
+    background-color: #CCC;
+    color: #000;
+    font-size: 1.3em;
+}
+
+td {
+    font-size: 1.15em;
+}
+
+h3.details {
+    margin: 20px 0;
+}
+
+div.details {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: #BEFF8B; /*light limegreen*/
+    padding: 15px 0;
+}
+
+p.attribute {
+    font-weight: bold;
+}
+
+p.value {
+    font-style: italic;
+}
